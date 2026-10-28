@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "subject": "Computer Science",
+    "question": "What is the primary difference between a process and a thread in modern operating systems?",
+    "numAlts": 4,
+    "altA": "A process has its own address space, whereas threads within the same process share the address space.",
+    "altB": "Threads have independent address spaces, while processes share system memory.",
+    "altC": "Processes run exclusively in kernel mode, while threads run exclusively in user mode.",
+    "altD": "Threads cannot be scheduled independently by the operating system kernel.",
+    "answer": "A",
+    "ground_truth_explanation": "A process is an executing instance of a program with its own dedicated memory address space and resources. Threads are lightweight units of execution within a process that share the process's address space, file handles, and globals, but maintain their own stack and registers."
+  },
+  {
+    "id": 2,
+    "subject": "Biology",
+    "question": "Which organelle is primarily responsible for ATP synthesis through cellular respiration in eukaryotic cells?",
+    "numAlts": 4,
+    "altA": "Endoplasmic Reticulum",
+    "altB": "Mitochondria",
+    "altC": "Golgi Apparatus",
+    "altD": "Lysosome",
+    "answer": "B",
+    "ground_truth_explanation": "Mitochondria are often referred to as the powerhouses of the cell because they generate most of the chemical energy needed to power the cell's biochemical reactions via the Krebs cycle and oxidative phosphorylation."
+  },
+  {
+    "id": 3,
+    "subject": "Machine Learning",
+    "question": "Why is dropout commonly used during the training phase of deep neural networks?",
+    "numAlts": 4,
+    "altA": "To accelerate matrix multiplication speed during inference",
+    "altB": "To ensure gradients never vanish or explode",
+    "altC": "To act as a regularization technique preventing co-adaptation of neurons and overfitting",
+    "altD": "To permanently prune unnecessary weights from the model architecture",
+    "answer": "C",
+    "ground_truth_explanation": "Dropout randomly sets a fraction of input units or activations to zero during training, which prevents units from co-adapting too much and forces the network to learn robust redundant representations, effectively reducing overfitting."
+  },
+  {
+    "id": 4,
+    "subject": "Databases",
+    "question": "In relational databases, which ACID property guarantees that all operations within a transaction either completely succeed or completely fail?",
+    "numAlts": 4,
+    "altA": "Atomicity",
+    "altB": "Consistency",
+    "altC": "Isolation",
+    "altD": "Durability",
+    "answer": "A",
+    "ground_truth_explanation": "Atomicity ensures that a transaction is treated as a single, indivisible unit of work: either all its modifications are committed, or if any failure occurs, the entire transaction is rolled back to leave the database unchanged."
+  },
+  {
+    "id": 5,
+    "subject": "Web Architecture",
+    "question": "What is the primary function of an HTTP reverse proxy like NGINX?",
+    "numAlts": 4,
+    "altA": "To cache web pages directly on the client browser disk",
+    "altB": "To intercept requests on behalf of internal backend servers for load balancing, SSL termination, and security",
+    "altC": "To translate IPv4 addresses to IPv6 addresses for local home networks",
+    "altD": "To compile server-side TypeScript code into WebAssembly in real-time",
+    "answer": "B",
+    "ground_truth_explanation": "A reverse proxy sits in front of web servers and forwards client requests to those servers. It is commonly used for load balancing, centralized SSL/TLS termination, request caching, and shielding internal backend server architectures from direct internet exposure."
+  }
+]

@@ -1,0 +1,13 @@
+Question text: During DNA replication in eukaryotic cells, which enzyme is responsible for relieving the torsional strain and positive supercoiling that accumulates ahead of the progressing replication fork?
+Number of options (2 to 5) [2/3/4/5] (4): 4
+Option A: DNA Helicase
+Option B: DNA Ligase
+Option C: Topoisomerase (e.g., DNA Gyrase)
+Option D: Primase (RNA Polymerase)
+Correct Option [A/B/C/D]: C
+
+Keep the threshold Value as 3.2 or above 
+
+GITHUB LINK: https://github.com/Pawan12345kr/group_17_paper_vlog
+
+Refer to the README file for terminal implementation

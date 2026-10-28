@@ -1,0 +1,13 @@
+# Virtual environments
+venv/
+code_folder/venv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+code_folder/.env
