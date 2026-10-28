@@ -7,6 +7,8 @@ This repository contains the **Group 17 Paper Vlog** presentation, custom evalua
 
 Instead of relying on multi-GPU setups (8x A100s) and outdated HuggingFace checkpoints, this implementation uses **Google Gemini Pro** via the modern `google-genai` SDK for high-speed, cost-effective, and pedagogical iterative explanation generation and verification.
 
+## Video Link:
+https://youtu.be/LwVn2ABrvzI
 ---
 
 ## Architecture Overview
